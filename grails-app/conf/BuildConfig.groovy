@@ -30,7 +30,7 @@ grails.project.dependency.resolution = {
         }
         runtime ':quartz:1.0-RC6'
         compile ':quartz:1.0-RC6'
-        compile(':rest-client-builder:1.0.2') {
+        compile(':rest-client-builder:1.0.3') {
             export = false
         }
         compile(":hibernate:$grailsVersion") {
